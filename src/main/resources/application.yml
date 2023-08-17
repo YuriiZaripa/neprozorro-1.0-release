@@ -31,7 +31,6 @@ info:
   contacts:
     email: ${CONTACT_EMAIL}
   version: 1.0
-  host: ${SERVER_HOST, http://localhost:8081/}
-
+  host: ${SERVER_HOST:'http://localhost:8081/'}
 
 
